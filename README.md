@@ -3,5 +3,5 @@ An introduction to Git
 
 Git is awesome
 
-Wow
+I can made some changes on branch using Git
 
