@@ -1,8 +1,6 @@
 # Short intro to Git
 
-## Create git repo 
-
-### Git setup (first time only)
+## Git setup (first time only)
 
 First time only
 
@@ -12,7 +10,7 @@ git config --global user.name "Nuruddin Ashr"
 git config --global user.email "uudashr@gmail.com"
 
 # list global config
-git config -l --global 
+git config -l --global
 ```
 
 
@@ -28,9 +26,9 @@ git config --local user.email "nuruddin@kurio.co.id"
 git config -l --local
 ```
 
-### Create repository
+## Create repository
 
-#### Github first
+### Github first
 
 ```shell
 # TODO go to github.com and create repository
@@ -40,7 +38,7 @@ cd git-intro
 
 
 
-#### Local first
+### Local first
 
 ```shell
 # TODO create README.md with some content
@@ -54,7 +52,7 @@ git push -u origin master
 
 
 
-### Ignoring files (.gitignore)
+## Ignoring files (.gitignore)
 
 If we want something to ignore by the git
 
@@ -66,7 +64,7 @@ temp
 TODO.txt
 ```
 
-### Make some changes
+## Make some changes
 
 ```shell
 # TODO make some change to README.md
@@ -95,9 +93,9 @@ git push
 
 
 
-### Branching
+## Branching
 
-#### Listing branch
+### Listing branch
 
 ```shell
 git branch
@@ -105,7 +103,7 @@ git branch
 
 
 
-#### Create branch
+### Create branch
 
 ```shell
 git branch <branch-name>
@@ -121,7 +119,7 @@ git checkout -b <branch-name>
 
 
 
-#### Switching between branch
+### Switching between branch
 
 ```shell
 git checkout <branch-name>
@@ -129,7 +127,7 @@ git checkout <branch-name>
 
 
 
-#### Merging branch
+### Merging branch
 
 ```shell
 git checkout master
@@ -138,7 +136,7 @@ git merge <branch-name>
 
 
 
-#### Deleting (local) branch
+### Deleting (local) branch
 
 ```shell
 git branch -d <branch-name>
@@ -146,7 +144,7 @@ git branch -d <branch-name>
 
 
 
-#### Pushing (local) branch to remote repo
+### Pushing (local) branch to remote repo
 
 ```shell
 git push -u origin <branch-name>
@@ -154,7 +152,7 @@ git push -u origin <branch-name>
 
 
 
-#### Deleting remote branch
+### Deleting remote branch
 
 ```shell
 git push origin --delete <branch-name>
@@ -168,7 +166,7 @@ git branch -dr origin/<branch-name>
 
 
 
-#### Tagging
+## Tagging
 
 ```shell
 git tag <tag-name>
@@ -182,9 +180,8 @@ push to remote
 git push origin <tag-name>
 ```
 
-or 
+or
 
 ```shell
 git push --tags
 ```
-
